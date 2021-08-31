@@ -1,0 +1,29 @@
+.SearchBox {
+  width: 80%;
+  max-width: 45rem;
+  border: 1px solid #9b9b9b;
+  border-radius: 0.4rem;
+  color: #9b9b9b;
+  background-color: #dfdfdf;
+}
+.SearchBox form {
+  display: flex;
+}
+.SearchBox button {
+  border: 0;
+  background-color: transparent;
+  padding: 0.4rem 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SearchBox input {
+  border: 0;
+  background-color: transparent;
+  padding: 0.5rem;
+  /* border: 1px solid black; */
+  flex-grow: 2;
+}
+.SearchBox input:focus {
+  outline: none;
+}
