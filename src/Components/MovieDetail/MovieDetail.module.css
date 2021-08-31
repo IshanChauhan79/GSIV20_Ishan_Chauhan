@@ -1,0 +1,58 @@
+.MovieDetail {
+  display: flex;
+  margin: auto;
+  padding: 2rem;
+  width: min(100%, 150rem);
+}
+.Img {
+  width: 28rem;
+  min-width: 28rem;
+  height: 28rem;
+  background-position: top;
+  background-size: cover;
+}
+.Details {
+  padding: 0 2rem;
+  font-size: 1.8rem;
+  position: relative;
+}
+.Details > div {
+  margin: 0 0 1rem 0;
+}
+.TitleRow {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.Title {
+  color: #4285f4;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.Rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fbbc04;
+}
+.DateRow {
+  font-size: 2rem;
+}
+.Desc {
+  color: #4a4a4a;
+}
+
+.View {
+  position:absolute;
+  bottom: 0rem;
+  left: 5rem;
+}
+.View > a {
+  padding: 0.6rem 1.4rem;
+  border-radius: 2rem;
+  background-color: #cf3721;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}

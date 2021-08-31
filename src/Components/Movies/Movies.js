@@ -1,5 +1,5 @@
 import React from "react";
-import MovieCard from "../UI/SearchBox/MovieCard/MovieCard";
+import MovieCard from "../UI/MovieCard/MovieCard";
 import classes from "./Movies.module.css";
 
 const img = "https://image.tmdb.org/t/p/w500";
